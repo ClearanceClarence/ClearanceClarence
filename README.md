@@ -1,4 +1,3 @@
-# Hi, I’m CC 👋
 **Senior Full Stack Developer | PHP • WordPress • REST APIs • CMS Architecture**
 
 I build high-performance web platforms, custom CMS solutions, and backend systems with a strong focus on clean architecture, maintainability, and real-world production reliability.
