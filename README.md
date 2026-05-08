@@ -8,7 +8,7 @@ By trade I work with PHP, MySQL, and modern JavaScript. By curiosity I build ful
 
 ## 🚀 Projects
 
-### 🗄 DBForge
+### 🗄 Ledger
 *The database tool phpMyAdmin should have been.*
 
 A ground-up phpMyAdmin alternative built in pure PHP with vanilla JavaScript and zero external dependencies (one MIT-licensed QR generator for 2FA aside). Drop the folder into your web root, run the 3-step installer, and manage your databases.
@@ -18,13 +18,16 @@ A ground-up phpMyAdmin alternative built in pure PHP with vanilla JavaScript and
 - AJAX inline cell editing — click any cell, type, hit Enter. No page reloads, ever.
 - Cross-table search across an entire database in a single query
 - Interactive SVG ER diagram with crow's foot notation, drag-to-position, auto-layout physics simulation, and per-database persistence
-- Full CRUD for views, triggers, stored routines, and scheduled events
-- Live processlist with auto-refresh, color-scaled query times, and self-kill protection
+- Full CRUD for views, triggers, stored routines, and scheduled events with scheduler-status detection
+- Live processlist with auto-refresh, color-scaled query times, one-click kill, and self-kill protection
+- Query history that captures errors and result counts, expand-on-click for the full PDO error
+- Index management with multi-column composite support and per-key drop
+- phpMyAdmin-compatible SQL exports (4-pass: tables → data → indexes → constraints) for byte-for-byte interchangeable dumps
 - 20 built-in themes (10 light, 10 dark) plus a custom theme API and per-zone font control
 - 12-layer security chain: bcrypt + TOTP 2FA, CSRF, IP whitelist, brute force lockout, read-only mode, query audit logging
 - Docker support — `docker-compose up` and you're running
 
-👉 Repo: https://github.com/ClearanceClarence/DBForge
+👉 Repo: https://github.com/ClearanceClarence/Ledger
 
 ### 🧩 VoidForge CMS
 A lightweight WordPress-style CMS built entirely in pure PHP — no frameworks, no Composer, no dependencies.
