@@ -1,4 +1,4 @@
-# Adrian — Full-Stack Developer
+# Full-Stack Developer
 
 PHP · JavaScript/TypeScript · C#/.NET · MySQL/MariaDB · Tooling and systems
 
